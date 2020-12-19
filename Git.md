@@ -13,3 +13,14 @@ Index: a registry of files and their particular versions.
   1. Commited Files/modifications
   3. Staged files/modifications
   2. unstaged/untracked files/modifications
+
+## Important Commands
+
+Adds all local changes to the staging index
+ `git add -A`
+
+Commits staged changes
+`git commit -m "Your Message"`
+
+Synchronize with GitHub
+`git push origin main`
