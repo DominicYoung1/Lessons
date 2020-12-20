@@ -24,3 +24,9 @@ Commits staged changes
 
 Synchronize with GitHub
 `git push origin main`
+
+See git's logs:
+`git log --oneline`
+
+See (verbose) git logs
+`git log`
