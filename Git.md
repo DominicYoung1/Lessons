@@ -30,3 +30,8 @@ See git's logs:
 
 See (verbose) git logs
 `git log`
+
+
+### How Do I Pull Changes From GitHub?
+
+ `git pull origin main`
