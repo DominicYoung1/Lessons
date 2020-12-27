@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h1>
+  HTML (HyperText Markup Language)
+</h1>
+<p class="par-1">
+  Paragraph 1 should be centered on the page
+  Paragraph 1 should be centered on the page
+  Paragraph 1 should be centered on the page
+  Paragraph 1 should be centered on the page
+  Paragraph 1 should be centered on the page
+  Paragraph 1 should be centered on the page
+  Paragraph 1 should be centered on the page
+  Paragraph 1 should be centered on the page
+  Paragraph 1 should be centered on the page
+  Paragraph 1 should be centered on the page
+</p>
+
+<div id="textbox">
+  <!-- Renderer starts to draw this box
+  
+    WITHOUT ABSOLUTE SPACING:
+      1. it's going to auto-calculate everything.
+         renders h2 first. That's going to have some height (100px).
+      2. Start to render p. Since h2 in step (1) took up 100px, it draws
+         the p 100 pixels shifted down.
+
+    WITH ABSOLUTE SPACING:
+      1. It sees we specified explicitly where the header should go.
+         so it doesn't auto-calculate anything.
+  
+  
+  
+  
+  -->
+  <h2 id="boxheader">
+    A Text Box
+  </h2>
+  <p id="boxcontents">
+    This should be a text box with at title and contents
+  </p>
+</div>
+
+
+<div id="textbox1">
+  some textbox. This shouldn't render as you expect
+</div>
+<a href="https://www.w3schools.com">This is a link</a>
+
+<div id="purple">
+  <h2>
+    A Text Box 2
+  </h2>
+  <p>
+    But this should be purple text on a orange background!
+  </p>
+  </div>
+
+  <div  class="par-1">
+
+    <p class="redfont">
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+    </p>
+  </div>
+  <div  class="par-1">
+
+    <p>
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+      Paragraph 1 should be centered on the page
+    </p>
+  </div>
+<h3>Syntax Rundown</h3>
+
+
+</body>
+</html>

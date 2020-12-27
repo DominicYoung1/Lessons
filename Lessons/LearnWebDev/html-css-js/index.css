@@ -1,0 +1,63 @@
+h1 {
+  color:#006400;
+  /* position: fixed; */
+}
+
+
+
+h1 {
+  width: 100;
+  color: black;
+}
+
+h1:hover {
+  color: red;
+}
+p {
+  width: 200px;
+  margin: auto;
+}
+.par-1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: blue;
+}
+
+.redfont {
+  color: red;
+}
+
+#boxheader {
+  color: rgb(40, 49, 170);
+  position: absolute;
+  /* color: rgb(19, 29, 73); */
+}
+
+#boxcontents {
+  position: absolute;
+  top: 100px;
+}
+
+#textbox {
+  width: 50em;
+  height: 50em;
+  border-style: solid;
+  border-color: blue;
+  border-width: 3px;
+}
+
+
+#textbox1 {
+  width: 50em;
+  border-style: solid;
+  border-color: red;
+  border-width: 3px;
+}
+#purple p {
+  color:purple;
+  background-color: coral;
+  width: 50em;
+}
