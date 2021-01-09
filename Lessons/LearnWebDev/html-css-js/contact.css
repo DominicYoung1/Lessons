@@ -1,0 +1,20 @@
+h1.gold {
+    color:darkgoldenrod;
+    text-align: center;
+    font-size: 100px;
+    
+}
+
+
+p {
+    text-align: center;
+    font-size: larger;
+    line-height: 5em; 
+    margin-left: 550px;
+    margin-right: 550px;   
+}
+
+p:hover {
+    color:darkmagenta;
+}
+

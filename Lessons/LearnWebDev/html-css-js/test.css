@@ -1,0 +1,43 @@
+h1 {
+    color: black;
+    text-align: center;
+
+}
+
+p {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.par-1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    line-height: 30px;
+}
+
+.par-1:hover{
+    color:chocolate
+}
+
+#boxheader {
+    text-align: center;
+}
+
+#textbox {
+    width: 50em;
+    height: 20em;
+    border-style: solid;
+    border-color: darkgoldenrod;
+    border-width: 10px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 50px;
+    font-size: larger;
+}
+
+
