@@ -34,3 +34,20 @@ export const inOrder = (a: Number, b: Number) => {
 // // console.log("About to sort myArray", myArray);
 // const sortedArr = bubbleSort(myArray, inOrder);
 // console.log("Sorted it to", sortedArr);
+export const bubbleSortPerformance = (array: Number[], inOrder: (a: Number, b: Number) => Boolean) => {
+  let counter = 0;
+  let foundAnIssue = true;
+  while (foundAnIssue) {
+    foundAnIssue = false;
+    for (let i=1; i < array.length; i++) {
+      counter += 1;
+      if (!inOrder(array[i - 1], array[i])) {
+        const temp = array[i];
+        array[i] = array[i - 1];
+        array[i - 1] = temp;
+        foundAnIssue = true;
+      }
+    }
+  }
+  return counter;
+}
