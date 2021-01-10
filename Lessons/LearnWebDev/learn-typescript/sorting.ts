@@ -1,6 +1,6 @@
 
 
-const bubbleSort = (array, inOrder) => {
+const bubbleSort = (array: Number[], inOrder: (a: Number, b: Number) => Boolean) => {
   let counter = 0;
   let foundAnIssue = true;
   while (foundAnIssue) {
@@ -19,7 +19,7 @@ const bubbleSort = (array, inOrder) => {
   return array;
 }
 
-const inOrder = (a, b) => {
+const inOrder = (a: Number, b: Number) => {
   if (a <= b) return true;
   else return false;
 }

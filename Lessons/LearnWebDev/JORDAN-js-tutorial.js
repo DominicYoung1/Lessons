@@ -342,6 +342,7 @@ const inOrder = (a, b) => {
 }
 
 const myArray = [];
+bubbleSort("A STRING", "some ohter string");
 const n = 100000;
 for (let i = 0; i < n; i++) myArray.push(n - i);
 // console.log(myArray);
